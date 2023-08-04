@@ -36,6 +36,7 @@ Em resumo, a programação assistida por IA é a aplicação de inteligência ar
 - Linguagens Suportadas:
 1. Em termos da qualidade dos dados de treinamento, as linguagens de programação com maior suporte são: Java, Python, JavaScript, TypeScript e C#.
 2. O CodeWhisperer também suporta geração de código para as seguintes linguagens: Ruby, Go, PHP, C++, C, Shell, Scala, Rust, Kotlin e SQL.
+- Otimizado para uso com os serviços da AWS: O CodeWhisperer torna o uso dos serviços da AWS mais eficiente para os desenvolvedores, fornecendo sugestões de código otimizadas para APIs da AWS, incluindo Amazon Elastic Compute Cloud (Amazon EC2), AWS Lambda e Amazon Simple Storage Service (Amazon S3). Conforme você escreve código no seu IDE, o CodeWhisperer analisa automaticamente esse código e seus comentários.
 
 ### AWS Toolkit for IntelliJ IDEA
 
@@ -108,6 +109,8 @@ Em resumo, a programação assistida por IA é a aplicação de inteligência ar
 
 [4] "CodeWhisperer - Language IDE Support." AWS Documentation. Disponível em: https://docs.aws.amazon.com/codewhisperer/latest/userguide/language-ide-support.html#language-support.
 
-[5] "AWS Toolkit for JetBrains." AWS Documentation. Disponível em: https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/welcome.html.
+[5] "AWS CodeWhisperer - Recursos." Amazon Web Services. Disponível em: https://aws.amazon.com/pt/codewhisperer/features/.
 
-[6] "AWS Toolkit for IntelliJ." Amazon Web Services. Disponível em: https://aws.amazon.com/intellij/.
+[9] "AWS Toolkit for JetBrains." AWS Documentation. Disponível em: https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/welcome.html.
+
+[7] "AWS Toolkit for IntelliJ." Amazon Web Services. Disponível em: https://aws.amazon.com/intellij/.
