@@ -100,11 +100,23 @@ Em resumo, a programação assistida por IA é a aplicação de inteligência ar
 # MER da API Todo-List
 
 <p align="center">
-<img src="https://mermaid.ink/img/pako:eNqNUMkKAjEM_ZWSozqC1569CN5GL1KQ0EYNdhnazEFk_t26LydzCC8vy0tyBpscgQbrsZQ54z5jMFFVuzFqlVxaCAV1vrNXG6_Xi7li98G0kjnulaNiM3fCKb6TTfPb6rnI9tk__Mota_Y_OWHx9DXl7l9TDMwM1AWuYDodVfy6RyuboiDHAhMIlAOyq3-46RqQAwUyoCt0mI8GTBxqHfaS2lO0oCX3NIG-cyj0eBvoHfpS2Q7jJqVnPFwAWAVrCA?type=png)](https://mermaid.live/edit#pako:eNqNUMkKAjEM_ZWSozqC1569CN5GL1KQ0EYNdhnazEFk_t26LydzCC8vy0tyBpscgQbrsZQ54z5jMFFVuzFqlVxaCAV1vrNXG6_Xi7li98G0kjnulaNiM3fCKb6TTfPb6rnI9tk__Mota_Y_OWHx9DXl7l9TDMwM1AWuYDodVfy6RyuboiDHAhMIlAOyq3-46RqQAwUyoCt0mI8GTBxqHfaS2lO0oCX3NIG-cyj0eBvoHfpS2Q7jJqVnPFwAWAVrCA"/>
+<img src="https://mermaid.ink/img/pako:eNqNUMkKAjEM_ZWSozqC1569CN5GL1KQ0EYNdhnazEFk_t26LydzCC8vy0tyBpscgQbrsZQ54z5jMFFVuzFqlVxaCAV1vrNXG6_Xi7li98G0kjnulaNiM3fCKb6TTfPb6rnI9tk__Mota_Y_OWHx9DXl7l9TDMwM1AWuYDodVfy6RyuboiDHAhMIlAOyq3-46RqQAwUyoCt0mI8GTBxqHfaS2lO0oCX3NIG-cyj0eBvoHfpS2Q7jJqVnPFwAWAVrCA?type=png)](https://mermaid.live/edit#pako:eNqNUMkKAjEM_ZWSozqC1569CN5GL1KQ0EYNdhnazEFk_t26LydzCC8vy0tyBpscgQbrsZQ54z5jMFFVuzFqlVxaCAV1vrNXG6_Xi7li98G0kjnulaNiM3fCKb6TTfPb6rnI9tk__Mota_Y_OWHx9DXl7l9TDMwM1AWuYDodVfy6RyuboiDHAhMIlAOyq3-46RqQAwUyoCt0mI8GTBxqHfaS2lO0oCX3NIG-cyj0eBvoHfpS2Q7jJqVnPFwAWAVrCA"/><br>
+MER Todo-List
 </p>
 
 - `TodoList` possui (contém) um ou mais relacionamentos com `TodoItem`.
 - `TodoItem` possui (é parte de) um relacionamento com `TodoList`.
+
+### Estrutura do Projeto Spring Boot
+
+- **APIs REST**: O cliente envia solicitações ao servidor como dados. O servidor usa essa entrada do cliente para iniciar funções internas e retorna os dados de saída ao cliente.
+- **Spring Boot** é um framework Java open source ele traz mais agilidade para o processo de desenvolvimento, uma vez que devs conseguem reduzir o tempo gasto com as configurações iniciais.
+- **A arquitetura em três camadas** tem por objetivo promover a separação das funcionalidades usando camadas para a separação da lógica de apresentação, lógica de negócio e lógica de acesso a dados.
+
+<p align="center">
+<img src="https://mermaid.ink/img/pako:eNqNkUFuwyAQRa-CWCcX8KKSjVOpUlfJLnYWU5jGqIZxAVdK45yn6gF6Al-s2KRtqqpSWMF_wwOGI5ekkGd876Br2P26tiwO3z-koOYCDChgiphoNdqANU8108irvNNnsEsxWlXbfy3IBNngqP2lKapz2qK7UrNB96LHN7rUiGpOJV7pKEGRvxSU1Ro78jqQO-x-4lVVgJX0veWvPmfL5c1wC6_M4XOvfbzZ-IF-YEXixcxFE49mZnwPFC0DEwmKGeYSvY_XghmVCZUzuotdd7BHJskMbMUX3KAzoFX8t-NUWPPQoIktzeJUgXuaHnWKddAH2hys5FlwPS543ykIWGqIzTA8e4TWx7QDuyX6Wp8-AV9xqiE?type=png)](https://mermaid.live/edit#pako:eNqNkUFuwyAQRa-CWCcX8KKSjVOpUlfJLnYWU5jGqIZxAVdK45yn6gF6Al-s2KRtqqpSWMF_wwOGI5ekkGd876Br2P26tiwO3z-koOYCDChgiphoNdqANU8108irvNNnsEsxWlXbfy3IBNngqP2lKapz2qK7UrNB96LHN7rUiGpOJV7pKEGRvxSU1Ro78jqQO-x-4lVVgJX0veWvPmfL5c1wC6_M4XOvfbzZ-IF-YEXixcxFE49mZnwPFC0DEwmKGeYSvY_XghmVCZUzuotdd7BHJskMbMUX3KAzoFX8t-NUWPPQoIktzeJUgXuaHnWKddAH2hys5FlwPS543ykIWGqIzTA8e4TWx7QDuyX6Wp8-AV9xqiE"/>
+<a href="https://docs.google.com/presentation/d/1EqXeBjRW_84mSfTJpYUK63QPi2O0aeK5/edit?usp=sharing&ouid=101340348592910912358&rtpof=true&sd=true">Arquitetura de Três Camadas</a> 
+</p>
 
 -----
 
@@ -120,9 +132,13 @@ Em resumo, a programação assistida por IA é a aplicação de inteligência ar
 
 [5] "AWS CodeWhisperer - Recursos." Amazon Web Services. Disponível em: https://aws.amazon.com/pt/codewhisperer/features/.
 
-[9] "AWS Toolkit for JetBrains." AWS Documentation. Disponível em: https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/welcome.html.
+[6] "AWS Toolkit for JetBrains." AWS Documentation. Disponível em: https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/welcome.html.
 
 [7] "AWS Toolkit for IntelliJ." Amazon Web Services. Disponível em: https://aws.amazon.com/intellij/.
+
+[8] "Spring Boot." Projeto Spring Boot. Disponível em: https://spring.io/projects/spring-boot.
+
+[9] Apresentação sobre "Contextualizando o Desenvolvimento Web com Spring Boot 3 e Kotlin". Disponível em: https://docs.google.com/presentation/d/1EqXeBjRW_84mSfTJpYUK63QPi2O0aeK5/edit?usp=sharing&ouid=101340348592910912358&rtpof=true&sd=true.
 
 ## Autor
 
