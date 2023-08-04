@@ -97,6 +97,15 @@ Em resumo, a programação assistida por IA é a aplicação de inteligência ar
 - Entre nas configurações do CodeWhisperer e selecione todas as opções. *File > Preferences > AWS > CodeWhisperer* (No meu caso, apenas a primeira não estava selecionada)
 <p align="center"> <img src="imgs/codewhisperer8.png" width="600" height="400"/></p>
 
+# MER da API Todo-List
+
+<p align="center">
+<img src="https://mermaid.ink/img/pako:eNqNUMkKAjEM_ZWSozqC1569CN5GL1KQ0EYNdhnazEFk_t26LydzCC8vy0tyBpscgQbrsZQ54z5jMFFVuzFqlVxaCAV1vrNXG6_Xi7li98G0kjnulaNiM3fCKb6TTfPb6rnI9tk__Mota_Y_OWHx9DXl7l9TDMwM1AWuYDodVfy6RyuboiDHAhMIlAOyq3-46RqQAwUyoCt0mI8GTBxqHfaS2lO0oCX3NIG-cyj0eBvoHfpS2Q7jJqVnPFwAWAVrCA?type=png)](https://mermaid.live/edit#pako:eNqNUMkKAjEM_ZWSozqC1569CN5GL1KQ0EYNdhnazEFk_t26LydzCC8vy0tyBpscgQbrsZQ54z5jMFFVuzFqlVxaCAV1vrNXG6_Xi7li98G0kjnulaNiM3fCKb6TTfPb6rnI9tk__Mota_Y_OWHx9DXl7l9TDMwM1AWuYDodVfy6RyuboiDHAhMIlAOyq3-46RqQAwUyoCt0mI8GTBxqHfaS2lO0oCX3NIG-cyj0eBvoHfpS2Q7jJqVnPFwAWAVrCA"/>
+</p>
+
+- `TodoList` possui (contém) um ou mais relacionamentos com `TodoItem`.
+- `TodoItem` possui (é parte de) um relacionamento com `TodoList`.
+
 -----
 
 ### Referências
@@ -114,3 +123,11 @@ Em resumo, a programação assistida por IA é a aplicação de inteligência ar
 [9] "AWS Toolkit for JetBrains." AWS Documentation. Disponível em: https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/welcome.html.
 
 [7] "AWS Toolkit for IntelliJ." Amazon Web Services. Disponível em: https://aws.amazon.com/intellij/.
+
+## Autor
+
+<a href="https://www.linkedin.com/in/cami-la/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64323124?v=4" width="100px;" alt=""/></a>
+<br>
+
+Feito com ❤️ por <a href="https://www.instagram.com/camimi_la/" title="Instagram">Cami-la </a> 👋🏽 
