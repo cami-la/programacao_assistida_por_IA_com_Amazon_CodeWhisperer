@@ -1,0 +1,30 @@
+// https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.1.2&packaging=jar&jvmVersion=17&groupId=dev.cami&artifactId=todo-list-app&name=todo-list-app&description=To-do%20List%20app%20with%20Spring%20Boot%20and%20Amazon%20CodeWhisperer&packageName=dev.cami.todo-list-app&dependencies=web,lombok,data-jpa,h2
+plugins {
+  id 'java'
+  id 'org.springframework.boot' version '3.1.2'
+  id 'io.spring.dependency-management' version '1.1.2'
+}
+
+group = 'dev.cami'
+version = '0.0.1-SNAPSHOT'
+
+java {
+  sourceCompatibility = '17'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  runtimeOnly 'com.h2database:h2'
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+  compileOnly 'org.projectlombok:lombok'
+  annotationProcessor 'org.projectlombok:lombok'
+}
+
+tasks.named('test') {
+  useJUnitPlatform()
+}
