@@ -14,11 +14,11 @@ import java.util.UUID;
 @NoArgsConstructor
 @Setter
 public class TodoList {
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
-    private String title;
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "list_id")
-    private List<TodoItem> items = new ArrayList<>();
+  @Id
+  @GeneratedValue(strategy = GenerationType.UUID)
+  private UUID id;
+  private String title;
+  @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+  @JoinColumn(name = "list_id")
+  private List<TodoItem> items = new ArrayList<>();
 }
