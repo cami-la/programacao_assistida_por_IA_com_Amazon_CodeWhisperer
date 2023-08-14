@@ -120,6 +120,34 @@ MER Todo-List
 
 -----
 
+## Visão Geral Acerca de Testes Unitários com JUnit
+
+- O software deve fazer o que o cliente precisa de maneira confiável, segura, eficiente e flexível.
+- Para um software ser testado corretamente, esse processo deve ser automatizado com o auxílio de ferramentas com esta finalidade.
+- Os testes automatizados vêm como uma forma de poupar tempo de detecção de erros e de aumento de confiabilidade com relação aos testes em si.
+
+<p align="center"> <img src="https://devporai.com.br/wp-content/uploads/2020/02/Pir%C3%A2mide-testes.png" alt="Pirâmide de Testes"/></p>
+
+
+### Testes Unitários
+
+- São testes que verificam se uma parte específica do código, costumeiramente a nível de função, está funcionando corretamente. ​
+- Estes tipos de testes são frequentemente escritos por desenvolvedores quando trabalham no código, para assegurar que a função específica está executando como esperado. ​
+- Testes Unitários não dependem de nenhum processo ou sistema externo (banco de dados, console, rede e etc.)
+
+### JUnit 5
+
+- O JUnit é um framework open-source que possibilita a criação das classes de testes e tem como objetivo facilitar a criação de casos de teste, além de permitir escrever testes que retenham seu valor ao longo do tempo, ou seja, que possam ser reutilizáveis.
+- Estas classes contêm um ou mais métodos para que sejam realizados os testes, podendo ser organizados de forma com que o sistema seja testado em partes separadas, algumas integradas ou até mesmo todas de uma só vez.​
+
+<p align="center"> <img src="imgs/junit-eclipse.png"/></p>
+
+### Mockito
+
+- o Mockito é uma biblioteca em Java que permite criar objetos simulados (mocks) para isolar e testar partes específicas de um código sem depender de componentes externos reais.
+- Ele é usado para facilitar a criação de testes de unidade mais rápidos, independentes e confiáveis, ao simular o comportamento de classes, interfaces ou serviços externos durante os testes.
+
+
 ### Referências
 
 [1] "Vídeo sobre Programação Assistida por IA." YouTube. Disponível em: https://www.youtube.com/watch?v=0PpmtFfh3HI&t=3175s.
@@ -139,6 +167,12 @@ MER Todo-List
 [8] "Spring Boot." Projeto Spring Boot. Disponível em: https://spring.io/projects/spring-boot.
 
 [9] Apresentação sobre "Contextualizando o Desenvolvimento Web com Spring Boot 3 e Kotlin". Disponível em: https://docs.google.com/presentation/d/1EqXeBjRW_84mSfTJpYUK63QPi2O0aeK5/edit?usp=sharing&ouid=101340348592910912358&rtpof=true&sd=true.
+
+[10] "JUnit 5 User Guide." JUnit Documentation. Disponível em: https://junit.org/junit5/docs/current/user-guide/.
+
+[11] "Writing Tests with JUnit 5." JUnit Documentation. Disponível em: https://junit.org/junit5/docs/current/user-guide/#writing-tests.
+
+[12] "Mockito - Tasty mocking framework for unit tests in Java." Mockito Official Website. Disponível em: https://site.mockito.org/.
 
 ## Autor
 

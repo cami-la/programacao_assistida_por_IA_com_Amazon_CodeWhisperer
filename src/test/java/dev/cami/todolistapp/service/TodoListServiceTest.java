@@ -33,10 +33,8 @@ public class TodoListServiceTest {
         .title("fake title")
         .build();
     Mockito.when(todoListRepository.save(Mockito.any())).thenReturn(fakeTodoList);
-
     //when
     TodoList actual = todoListService.createTodoList(fakeTodoList);
-
     //then
     Assertions.assertThat(actual).isEqualTo(fakeTodoList);
     Assertions.assertThat(actual.getItems()).isNullOrEmpty();
