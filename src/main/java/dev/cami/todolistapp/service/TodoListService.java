@@ -27,7 +27,7 @@ public record TodoListService(
   }
 
   public TodoList updateTodoList(UUID id, TodoList todoList) {
-    TodoList existingTodoList = todoListRepository.findById(id).orElseThrow();
+    TodoList existingTodoList = getTodoList(id);
     existingTodoList.setTitle(todoList.getTitle());
     return todoListRepository.save(existingTodoList);
   }

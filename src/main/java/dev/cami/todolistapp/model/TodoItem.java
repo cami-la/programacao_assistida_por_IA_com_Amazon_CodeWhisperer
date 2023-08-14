@@ -19,4 +19,6 @@ public class TodoItem {
   @GeneratedValue(strategy = GenerationType.UUID)
   private UUID id;
   private String description;
+  private boolean completed;
+  private UUID listId;
 }
