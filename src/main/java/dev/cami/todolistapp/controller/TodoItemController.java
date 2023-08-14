@@ -32,7 +32,7 @@ public record TodoItemController(
     todoItemService.deleteTodoItem(id);
   }
 
-  @PutMapping("/{id}/completed")
+  @PatchMapping("/{id}/completed")
   public TodoItem markTodoItemCompleted(@PathVariable("id") UUID id) {
     return todoItemService.markTodoItemCompleted(id);
   }
